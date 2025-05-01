@@ -5,7 +5,10 @@ import { USAMap } from "@mirawision/usa-map-react";
 export const Map: React.FC = ({}) => {
     return (
       <div>
-        <USAMapStyled />
+        <USAMapStyled mapSettings={{
+          width: "95vw",
+          height: "95vh"
+        }}/>
       </div>
     );
   }
