@@ -1,12 +1,10 @@
 import React from 'react';
-import { USAMap } from '@mirawision/usa-map-react';
+import { Map } from './components/map/Map';
 
 const App = () => (
-  <div>
-    <h1>USA Map</h1>
-
-    <USAMap />
-  </div>
+  <>
+    <Map />
+  </>
 );
 
 export default App;
